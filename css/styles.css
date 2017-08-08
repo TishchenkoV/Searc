@@ -1,0 +1,134 @@
+body {
+	margin: 0 auto;
+	width: 80%;
+	font-family: Arial, sans-serif;
+	background-color: #F1F1F1;
+	color: #c2c2c2;
+}
+
+.search {
+	margin-top: 80px;
+	display: inline-block;
+	width: 100%;
+	font-size: 0;
+	box-sizing: border-box;
+}
+
+form {
+	display: inline-flex;
+	width: 100%;
+	font-size: 0;
+}
+.search__line {
+	box-sizing: border-box;
+	width: 80%;
+	height: 120px;
+	border: 0;
+	font-size: 80px;
+	padding: 0;
+	background-color: #F1F1F1;
+	outline: none;
+	color: #ec5a62;
+}
+
+.search__button {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	display: block;
+	width: 20%;
+	height: 120px;
+	background-image: url(../img/favicon.png);
+	border: 0;
+	background-position: center;
+	background-color: #F1F1F1;
+	background-size: 30%;
+	background-repeat: no-repeat;
+	-webkit-transition: all .5s linear;
+	   -moz-transition: all .5s linear;
+	    -ms-transition: all .5s linear;
+	     -o-transition: all .5s linear;
+	        transition: all .5s linear;
+}
+
+.list {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	font-size: 0;
+	margin-top: 40px;
+}
+
+.list__block {
+	width: 33%;
+	display: inline-block;
+}
+
+.list h2 {
+	font-size: 20px;
+}
+
+.list__item {
+	width: 100%;
+	list-style-type: none;
+	padding: 0;
+
+}
+
+li {
+	display: inline-block;
+	width: 85%;
+	box-sizing: border-box;
+}
+
+.list__site {
+	width: 100%;
+	display: inline-flex;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	background-color: #EBEBED;
+	overflow: hidden;
+	text-decoration: none;
+	color: #C2C2C2;
+
+}
+
+.list__img {
+	box-sizing: border-box;
+	vertical-align: middle;
+	width: 19%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.text {
+	box-sizing: border-box;
+	margin-top: 10px;
+	vertical-align: middle;
+	width: 79%;
+	display: inline-flex;
+	font-size: 12px;
+	margin-left: 5px;
+	overflow: hidden;
+}
+
+.radius {
+	border-radius: 50%;
+}
+
+.search__button:hover {
+	-webkit-transform: scale(1.3);
+ 	-moz-transform: scale(1.3);
+ 	-o-transform: scale(1.3);
+}
+
+.list__site:hover {
+	background-color: #E4E4E6;
+	color: #EA5A62;	
+}
+
+::-webkit-input-placeholder {
+	color:#c2c2c2;
+}
+
+/*ksjf*/
